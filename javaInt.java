@@ -1,0 +1,7 @@
+/**
+ * javaInt
+ */
+public class javaInt {
+
+  
+}
