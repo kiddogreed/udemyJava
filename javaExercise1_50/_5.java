@@ -8,8 +8,8 @@ public class _5 {
     Scanner sc = new Scanner(System.in);
 
     while (isOn) {
-
-      System.out.println("Greetings");
+     
+      System.out.println("Calculator App ");
       System.out.println("Input first number:");
       int firstVal = sc.nextInt();
       System.out.println("Input second number:");
@@ -56,6 +56,8 @@ public class _5 {
     
       System.out.println(firstVal+" "+op+" "+secondVal +" = "+ ans);
       //sc.close();
+
+      
       
     }
 
