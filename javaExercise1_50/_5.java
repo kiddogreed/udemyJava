@@ -1,5 +1,4 @@
 package javaExercise1_50;
-
 import java.util.Scanner;
 
 public class _5 {
@@ -16,31 +15,42 @@ public class _5 {
     System.out.println("Input second number:");
     int secondVal = sc.nextInt();
 
+    System.out.println("Select operation<(+),(-),(*),(/)>:");
     char operator = sc.next().charAt(0);
    
-
+    String op;
+    int ans;
     switch (operator) {
+      
       case '+':
-        
+        op = "+";
+        ans = (firstVal + secondVal);
         break;
 
       case '-':
-        
+        op = "-";
+        ans = firstVal - secondVal;
         break;
+
       case '*':
-        
+        op = "*";
+        ans = firstVal * secondVal;
         break;
-      case '/':
         
+      case '/':
+        op = "/";
+        ans = firstVal / secondVal;
         break;  
-    
+
       default:
+      op = "?";
       System.out.println("Unknown operator");
+      ans = 0;
         break;
     }
 
 
-    System.out.println(firstVal+" x "+secondVal +" = "+ (firstVal * secondVal));
+    System.out.println(firstVal+" "+op+" "+secondVal +" = "+ ans);
     sc.close();
     
   }

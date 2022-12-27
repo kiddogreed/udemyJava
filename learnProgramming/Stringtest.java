@@ -1,4 +1,4 @@
-package learnProgramming;
+//package learnProgramming;
 
 public class Stringtest {
   
