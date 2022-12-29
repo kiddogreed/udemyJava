@@ -7,3 +7,9 @@
 
 
      Boolean
+
+
+
+
+
+     # summary of operators
