@@ -13,6 +13,9 @@ package javaExercise1_50;
 //create message method that define all string output
 //create input for players
 //generate 4 player which generate random number
+//create object model for all ai bot enemy
+//create game loop that will continue the game until 1 remains
+
 
 import java.util.Random;
 import java.util.Scanner;
