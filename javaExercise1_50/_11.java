@@ -1,11 +1,10 @@
 package javaExercise1_50;
 //11. Write a Java program to print the area and perimeter of a circle. Go to the editor
-//        Test Data:
+//
 //        Radius = 7.5
 //        Expected Output
 //        Perimeter is = 47.12388980384689
 //        Area is = 176.71458676442586
-//
 //         Area of a circle = πr2
 //         The perimeter of a circle = 2πr
 //          Diameter = 2 × Radius
